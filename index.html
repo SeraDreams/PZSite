@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Website Layout</title>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Домой</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">О нас</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Сервис</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Связь</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<video class="video" src="video/background.mp4" autoplay loop muted></video>
+			<div class="carousel-caption">
+				<h1 class="display-2">Веб-сайт</h1>
+				<h3>Полный макет веб-сайта</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">Демонстрация</button>
+				<button type="button" class="btn btn-primary btn-lg">Начало работы</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">Услуга веб-хостинга позволяет частным лицам и организаций, чтобы сделать свой веб-сайт доступным по всему миру Широкая паутина.</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"><button type="button" class="btn btn-outline-secondary
+			btn-lg">Веб-хостинг</button></a>
+		</div>
+	</div>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Легко соображается.</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">Добро пожаловать на мой сайт!</p>
+		</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-code"></i>
+			<h3>HTML5</h3>
+			<p>Создан с использованием последней версии HTML, HTML5.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fab fa-css3"></i>
+			<h3>CSS3</h3>
+			<p>Построен с использованием последней версии CSS, CSS3.</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>Если вы его построите...</h2>
+			<p>Столбцы будут автоматически накладываться друг на друга, когда Ширина экрана меньше 576 пикселей.</p>
+			<p>Измените размер окна браузера, чтобы увидеть эффект. Адаптивный веб-сайт Дизайн стал более важным, так как количество мобильного трафика сейчас составляет более половины всего интернет-трафика.</p>
+			<p>Он также может отображать веб-страницу по-разному в зависимости от размер экрана или устройства просмотра.</p>
+			<br>
+			<a href="#" class="btn btn-primary">Learn More</a>
+		</div>
+		<div class="col-lg-6">
+			<img src="img/desk.png" class="img-fluid">
+		</div>
+	</div>
+</div>
+<hr class="my-4">
+
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Связь</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+		<div class="row text-center">
+			<div class="col-md-4 pt-0">
+				<hr class="light">
+				<h5>О нас</h5>
+				<hr class="light">
+				<p>8-800-555-5535</p>
+				<p>nesp.alexey@gmail.com</p>
+				<p>6969</p>
+				<p>Ростов</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Наши часы работы</h5>
+				<hr class="light">
+				<p>Понедельник: с 9 утра до 5 вечера</p>
+				<p>Суббота: 10 утра - 4 вечера</p>
+				<p>Воскресенье: Закрыто</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Зона обслуживания</h5>
+				<hr class="light">
+				<p>Улица Пушкина</p>
+				<p>Дом Ктушкина</p>
+				<p>№3</p>
+				<p>1/3</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
